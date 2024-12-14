@@ -1,3 +1,10 @@
+.options {
+  max-width: 640px;
+  margin: 0 auto;
+  border: 1px solid #4c3e3e;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 .options button {
   margin: 5px;
   padding: 10px 20px;
@@ -5,6 +12,7 @@
   color: #fff;
   background-color: #007bff;
   border: none;
+
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;

@@ -1,8 +1,27 @@
+.box {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding: 20px;
+  background-color: #f8f8f8;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #4c3e3e;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #101010;
+  margin-bottom: 20px;
+}
+
 .description {
   font-family: Arial, sans-serif;
-  font-weight: bold;
-  margin-top: 20px;
   font-size: 16px;
-  color: #a53c3c;
-  font-style: normal;
+  color: #1c1919;
+  margin-bottom: 20px;
 }

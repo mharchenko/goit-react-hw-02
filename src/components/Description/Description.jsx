@@ -1,7 +1,15 @@
 import styles from './Description.module.css';
 
-const Notification = ({ message }) => (
-  <p className={styles.description}>{message}</p>
-);
+const Description = () => {
+  return (
+    <div className={styles.box}>
+      <h1 className={styles.title}>Sip Happens Café</h1>
+      <p className={styles.description}>
+        Please leave your feedback about our service by selecting one of the
+        options below.
+      </p>{' '}
+    </div>
+  );
+};
 
-export default Notification;
+export default Description;
